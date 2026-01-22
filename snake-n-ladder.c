@@ -1,6 +1,6 @@
 
 //C program for creating & simulating a Snake & Ladder Game
-// Coded by: Akash Mahesh Ganjal. /\('-')/\ 
+// Coded by: Rohit Chowdhury. /\('-')/\ 
 //Constraints and Rules
 /*
 1.The game will begin with any dice value.
@@ -79,7 +79,7 @@ void main()
 	int i,dice,cur_pos1=0,cur_pos2=0;
 	char ch;
 	while(1)
-	{	printf("		** SNAKE AND LADDER GAME** \n		Coded By Akash Mahesh Ganjal\n");
+	{	printf("		** SNAKE AND LADDER GAME** \n		Coded By Rohit Chowdhury\n");
 		printf("Snakes:- 25 to 9,\t 65 to 40,\t 99 to  1.\nLadder:- 13 to 42,\t 60 to 83,\t 70 to 93.\n");
 		printf("Choose your option\n");
 		printf("1. Player 1 plays\n");

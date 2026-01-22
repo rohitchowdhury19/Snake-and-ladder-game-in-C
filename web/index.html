@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake & Ladder Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+        <header>
+            <h1>🐍 Snake & Ladder 🪜</h1>
+            <p class="subtitle">Roll the dice and race to 100!</p>
+        </header>
+
+
+        <div class="game-board-container">
+            <div class="board" id="board"></div>
+
+            <div class="controls-panel">
+                <div class="player-cards">
+                    <div class="player-card player1-card" id="player1-card">
+                        <div class="player-icon">🔴</div>
+                        <h4>Player 1</h4>
+                        <p class="position">Position: <span id="pos1">0</span></p>
+                    </div>
+                    <div class="player-card player2-card" id="player2-card">
+                        <div class="player-icon">🔵</div>
+                        <h4>Player 2</h4>
+                        <p class="position">Position: <span id="pos2">0</span></p>
+                    </div>
+                </div>
+
+                <div class="dice-area">
+                    <div class="dice" id="dice">🎲</div>
+                    <p class="dice-value" id="dice-value">Roll to start!</p>
+                </div>
+
+                <div class="current-turn" id="current-turn">
+                    🎯 Player 1's Turn
+                </div>
+
+                <div class="message-box" id="message-box">
+                    Roll 1 to enter the board! Click "Roll Dice" to begin.
+                </div>
+
+                <div class="buttons">
+                    <button class="btn roll-btn" id="roll-btn" onclick="rollDice()">
+                        🎲 Roll Dice
+                    </button>
+                    <button class="btn reset-btn" onclick="resetGame()">
+                        🔄 New Game
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="winner-modal" id="winner-modal">
+            <div class="modal-content">
+                <div class="trophy">🏆</div>
+                <h2 id="winner-text">Player 1 Wins!</h2>
+                <p>Congratulations!</p>
+                <button class="btn" onclick="resetGame()">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
