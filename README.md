@@ -1,7 +1,7 @@
 # Snake-and-ladder-game-in-C
 C program for creating &amp; simulating a Snake &amp; Ladder Game.
 
-// Coded by: Akash Mahesh Ganjal.  /\\('-')/\ 
+// Coded by: Rohit Chowdhury.  /\\('-')/\ 
 
 //Typed and compiled with <TDM-GCC 4.9.2 64-bit profiling> compiler in Dev-C++ 5.11 . 
 
