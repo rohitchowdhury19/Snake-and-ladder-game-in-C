@@ -14,8 +14,8 @@ Constraints and Rules:-
 3.Only the location of current player is shown on the board,
 	the location of other player is mentioned below the board.
 
-4.Snakes:- 99 to  1, 65 to 40, 25 to 9.
+4.Snakes:- 98 to  80, 94 to 12, 92 to 67, 56 to 48, 42 to 1, 61 to 43, 25 to 3.
 
-5.Ladder:- 70 to 93, 60 to 83, 13 to 42.
+5.Ladder:- 7 to 30, 16 to 33, 20 to 38, 36 to 83, 63 to 81, 86 to 97, 50 to 68, 71 to 89.
 
 Enjoy playing...
